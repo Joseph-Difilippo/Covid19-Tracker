@@ -1,0 +1,34 @@
+.table {
+  margin-top: 10px;
+  overflow: scroll;
+  height: 295px;
+  color: #473f3f;
+  background-color: white;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.3rem;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+.table::-webkit-scrollbar-thumb {
+  background-color: gray; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  height: 50px;
+}
